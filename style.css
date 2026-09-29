@@ -1,0 +1,292 @@
+body {
+
+    background: linear-gradient(135deg, #d8a7b1, #9fc5c5, #b8a9d9);
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+/* Login */
+
+#login {
+
+    text-align: center;
+
+    margin-top: 100px;
+
+}
+
+#website {
+
+    display: none;
+
+}
+
+
+h1 {
+
+    color: #123c69;
+
+}
+
+h2 {
+
+    color: #6a1b7b;
+
+}
+
+h3 {
+
+    color: #1b5e20;
+
+}
+
+p {
+
+    color: #4a1831;
+
+}
+
+li {
+
+    color: #263238;
+
+}
+
+a {
+
+    color: #d35400;
+
+    font-weight: bold;
+
+}
+
+th {
+
+    color: white;
+
+    background-color: #5e548e;
+
+}
+
+td {
+
+    color: #3e2723;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+/* Spiderman */
+
+#spiderman {
+
+    height: 200px;
+
+    width: 200px;
+
+    border-radius: 50%;
+
+    border: 10px solid #ffd700;
+
+}
+
+
+/* Panda */
+
+#panda {
+
+    border-radius: 20px;
+
+    border: 10px solid #ff69b4;
+
+}
+
+
+/* Traffic Light */
+
+#div1 {
+
+    height: 100px;
+
+    width: 100px;
+
+    padding: 10px;
+
+    margin: 20px;
+
+    background-color: blue;
+
+    border: 5px solid black;
+
+    border-radius: 50%;
+
+    text-align: center;
+
+    line-height: 100px;
+
+}
+
+#div2 {
+
+    height: 100px;
+
+    width: 100px;
+
+    padding: 10px;
+
+    margin: 20px;
+
+    background-color: magenta;
+
+    border: 5px solid black;
+
+    border-radius: 50%;
+
+    text-align: center;
+
+    line-height: 100px;
+
+}
+
+#div3 {
+
+    height: 100px;
+
+    width: 100px;
+
+    padding: 10px;
+
+    margin: 20px;
+
+    background-color: orangered;
+
+    border: 5px solid black;
+
+    border-radius: 50%;
+
+    text-align: center;
+
+    line-height: 100px;
+
+}
+
+
+/* Traffic Light Hover */
+
+#div1:hover {
+
+    background-color: red;
+
+    box-shadow: 0 0 25px red;
+
+}
+
+#div2:hover {
+
+    background-color: yellow;
+
+}
+
+#div3:hover {
+
+    background-color: green;
+
+}
+
+
+/* Form */
+
+input {
+
+    width: 250px;
+
+    box-sizing: border-box;
+
+    background-color: #f5d6e6;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+
+button {
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+
+    background-color: #9b59b6;
+
+}
+nput{
+    width: 80;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    background-color: blanchedalmond;
+    transition: 0.3s ease;
+}
+
+button{
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+    input{
+        width:80%;
+
+    }
+    body {
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.owEGAkCGDykGAHQjMApCSgHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+input {
+    display: block;
+    width: 280px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #ff9800;
+    color: red;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#Answer {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.quote {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    margin: 0 auto 25px;
+}

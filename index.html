@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOGIN FORM -->
+    <div id="login">
+
+        <h1>Welcome</h1>
+
+        <form onsubmit="login(event)">
+
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name"
+                   required>
+
+            <br><br>
+
+            <input type="number"
+                   id="age"
+                   placeholder="Enter your age"
+                   required>
+
+            <br><br>
+
+            <input type="password"
+                   id="password"
+                   placeholder="Enter your password"
+                   required>
+
+            <br><br>
+
+            <button type="submit">Enter Website</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+
+    <!-- MAIN WEBSITE -->
+    <div id="website">
+
+        <h1>Hello It's Frontend</h1>
+
+        <h2>Project 1</h2>
+
+        <p>It's conducted from SS Technologies</p>
+
+
+        <!-- Spiderman Image -->
+        <img id="spiderman"
+             src="C:\Users\DELL\Downloads\images (3).jpg"
+             alt="Spiderman">
+
+
+        <!-- Panda Image -->
+        <img id="panda"
+             src="C:\Users\DELL\Downloads\istockphoto-523761634-612x612.jpg"
+             alt="Panda"
+             width="200">
+
+        <br><br>
+
+
+        <!-- Link -->
+        <a href="https://www.zomato.com/">SWIGGY</a>
+
+
+        <!-- Education -->
+        <h3>Education</h3>
+
+        <ol>
+            <li>SSLC</li>
+            <li>PU</li>
+            <li>Engineering</li>
+            <li>Masters</li>
+            <li>PhD</li>
+        </ol>
+
+
+        <!-- Hobbies -->
+        <h3>Hobbies</h3>
+
+        <ul>
+            <li>Painting</li>
+            <li>Cycling</li>
+            <li>Swimming</li>
+        </ul>
+
+
+        <!-- Student Details Table -->
+        <h3>Student Details</h3>
+
+        <table border="5">
+
+            <tr>
+                <th>Name</th>
+                <th>USN</th>
+            </tr>
+
+            <tr>
+                <td>Siya</td>
+                <td>199</td>
+            </tr>
+
+        </table>
+
+
+        <!-- Student Marks Table -->
+        <h3>Student Marks</h3>
+
+        <table border="5">
+
+            <tr>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>Physics</th>
+                <th>Python</th>
+                <th>Total</th>
+            </tr>
+
+            <tr>
+                <td>Siya</td>
+                <td>85</td>
+                <td>78</td>
+                <td>92</td>
+                <td>255</td>
+            </tr>
+
+            <tr>
+                <td>Rahul</td>
+                <td>76</td>
+                <td>82</td>
+                <td>88</td>
+                <td>246</td>
+            </tr>
+
+            <tr>
+                <td>Ananya</td>
+                <td>91</td>
+                <td>89</td>
+                <td>95</td>
+                <td>275</td>
+            </tr>
+
+            <tr>
+                <td>Arjun</td>
+                <td>68</td>
+                <td>74</td>
+                <td>81</td>
+                <td>223</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>88</td>
+                <td>93</td>
+                <td>86</td>
+                <td>267</td>
+            </tr>
+
+        </table>
+
+
+        <!-- Traffic Light -->
+
+        <div id="div1">STOP</div>
+
+        <div id="div2">WAIT</div>
+
+        <div id="div3">GO</div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function login(event) {
+
+            event.preventDefault();
+
+            let password = document.getElementById("password").value;
+
+            let correctPassword = "12345";
+
+            if (password === correctPassword) {
+
+                document.getElementById("login").style.display = "none";
+
+                document.getElementById("website").style.display = "block";
+
+            } 
+            else {
+
+                document.getElementById("message").innerHTML =
+                    "Incorrect password!";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
